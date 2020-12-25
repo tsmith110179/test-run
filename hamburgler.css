@@ -149,7 +149,7 @@
 
 .nav-text-links ul li a:hover{text-decoration: none; font-size: 20pt; color: rgba(0, 0, 0, 1); border-bottom: 6px solid #24b56f;}
 
-.sub-menu{position: absolute; display: none; float: left; margin-top: 8px; width: 315px;}
+.sub-menu{position: absolute; display: none; float: left; margin-top: 0; width: 315px;}
 
 .nav-text-links .sub-menu li a{font-size: 14pt;}
 
@@ -163,9 +163,9 @@
 
 .nav-text-links .sub-menu-2 li a:hover{font-size: 14pt;}
 
-.sub-menu-1{position: absolute; display: none; float: left; margin-top: 8px; width: 315px;}
+.sub-menu-1{position: absolute; display: none; float: left; margin-top: 0; width: 315px;}
 
-.sub-menu-2{position: absolute; display: none; float: left; margin-top: 8px; width: 315px;}
+.sub-menu-2{position: absolute; display: none; float: left; margin-top: 0; width: 315px;}
 
 .nav-text-links .sub-menu li{position: relative; display: block; margin-left: 10%; padding-bottom: 6%; left: 133px;}
 
