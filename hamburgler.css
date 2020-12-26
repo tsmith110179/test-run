@@ -227,9 +227,9 @@ body .gsst_a .gscb_a{color: #24a56f;}
 }
 
 @media(max-width: 1200px){
-  .nav-text-links{width: 747px;}
-  .nav-text-links ul li a{font-size: 12.5pt;}
-  .nav-text-links ul li a:hover{font-size: 12.5pt;}
+  .nav-text-links{width: 651px;}
+  .nav-text-links ul li a{font-size: 9pt;}
+  .nav-text-links ul li a:hover{font-size: 9pt;}
 .nav-text-links .sub-menu-1 li{left: 251px;}
 .nav-text-links .sub-menu-2 li{left: 392px;}
  body #___gcse_0{margin-top: -124px;}
