@@ -75,7 +75,7 @@
     display: none;
     position: relative;
     max-width: 100%;
-    height: 600px;
+    height: 630px;
     background: rgba(13,23,58, 0.85);
     margin: 0 auto;
     width: 1532px;
@@ -90,28 +90,28 @@
 
 /* Resets */
 .hamburglernav #nav a { 
-    font-size: 150%;
+    font-size: 177%;
     color: #fff;
     text-decoration: none;
     font-weight: 300;
     display: block;
     float: left;
     position: relative;
-    width: 410px;
+    width: 537px;
     top: -30px;}
 .hamburglernav #nav a:hover { 
-    text-decoration: none;     
-    font-size: 150%;
+    text-decoration: underline;     
+    font-size: 177%;
     color: #fff;
     text-align: center;
     font-weight: 300;
     display: block;
-    width: 410px;
+    width: 537px;
     top: -30px;}
 .hamburglernav #nav ul { 
     list-style: none;
     padding: 0; }
-.hamburglernav #nav ul li { text-align: center; color: #fff;}
+.hamburglernav #nav ul li { text-align: center; color: #fff; float: left; padding-bottom: 1%;}
 /* Top-level menu */
 .hamburglernav #nav > ul > li { 
     float: left;
@@ -134,6 +134,8 @@
 .hamburglernav #nav ul li:hover ul { display: block; }
 
 #nav{position: relative; top: 25px;}
+
+#nav img{width: 300; height: 113px;}
 
 .logo{position: relative; float: left; left: 134px; top: -50px; width: 200px; height: 76px; z-index: 1;}
 
@@ -181,6 +183,8 @@
 
 .noscroll .nav-text-links ul li{display: none;}
 
+.noscroll #___gcse_0{display: none;}
+
 body .gsc-control-wrapper-cse{width: 20%; position: relative; float: right;}
 
 .gsc-input{background-image: none !important;}
@@ -199,6 +203,8 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
 .new-arrivals-column-header{color: #fff; font-size: 14px; font-weight: bold; margin-left: -14px; margin-top: 29px !important; margin-bottom: 38px;}
 
+.hamburgernav-text-links{position: relative; top: 39px; margin-left: 38%;}
+
 @media(max-width: 1960px){
   body #___gcse_0{position: relative; float: right; margin-top: -125px; width: 122%;}
 
@@ -211,7 +217,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
     .hamburglernav #nav a{font-size: 117%; width: 410px;}
     .hamburglernav #nav a:hover{font-size: 117%; width: 410px;}
     .hamburglernav{left: 8px;}
-    .noscroll .hamburger{left: 1350px;}
+    .noscroll .hamburger{left: 1278px; top: -618px;}
 .nav-text-links{width: 804px;}
   .nav-text-links ul li a{font-size: 13.5pt;}
   .nav-text-links ul li a:hover{font-size: 13.5pt;}
@@ -223,6 +229,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
 @media(max-width: 1280px){
       body #___gcse_0{width: 100%; margin-top: -126px;}
+      .noscroll .hamburger{left: 1192px;}
 
 }
 
@@ -245,6 +252,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
 .nav-text-links .sub-menu-2 li a:hover{font-size: 7pt;}
  body #___gcse_0{margin-top: -124px;}
+.noscroll .hamburger{left: 1076px;}
 }
 
 
