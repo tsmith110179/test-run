@@ -268,6 +268,9 @@ body .gsst_a .gscb_a{color: #24a56f;}
     .nav-text-links{display: none;}
      .hamburgernav-text-links{display: none;}
      body #___gcse_0{width: 321%;}
+     .hamburglernav #nav ul li:first-child{margin-top: 64px;}
+     #nav img{width: 200px; height: 76px;}
+     .noscroll .hamburger{left: 680px;}
     .flip img{display: none;}
     .flip-2 img{display: none;}
     .flip-3 img{display: none;}
@@ -286,5 +289,6 @@ body .gsst_a .gscb_a{color: #24a56f;}
     .hamburglernav #nav a{font-size: 60%; width: 115px; top: -89px;}
     .hamburglernav #nav a:hover{font-size: 60%; width: 115px; top: -89px;}
      body #___gcse_0{width: 255%;}
+     .noscroll .hamburger{left: 484px;}
 }
 
