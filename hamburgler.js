@@ -90,5 +90,6 @@ $(document).ready(function(){
   });
 });
 $("#captcha").load("captcha-form.html");
+$("#sign-up").load("sign-up-form.html");
 });
 // Code that uses other library's $ can follow here.

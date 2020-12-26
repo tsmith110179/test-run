@@ -7,6 +7,8 @@
 
 .hamburger{background-color: rgba(255,255,255,1); margin: 0 auto; position: relative; width: 1532px; height: 45px; max-width: 100%;}
 
+.contact-forms{background-image: url("contactus_image.jpg"); margin: 0 auto; position: relative; width: 1532px; max-width: 100%; height: 1020px; background-size: cover;}
+
 .noscroll .hamburger{height: 0; position: relative; top: -600px; left: 1450px;}
 
 .top-animate {
@@ -186,6 +188,7 @@
 .noscroll #___gcse_0{display: none;}
 
 .noscroll .jotform-form{display: none;}
+
 body .gsc-control-wrapper-cse{width: 20%; position: relative; float: right;}
 
 .gsc-input{background-image: none !important;}
@@ -210,9 +213,13 @@ body .rc-anchor-light.rc-anchor-normal{border: 0;}
 
 body .rc-anchor-light{background: #fff;}
 
-body .form-submit-button-light_rounded{background: #ffc200; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%;}
+body .form-submit-button-light_rounded{background: #ffc200; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%; box-shadow: none;}
+
+body .form-submit-button-light_rounded:hover{background: #ffc200; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%; box-shadow: none;}
 
 body .form-buttons-auto{margin-left: 0;}
+
+#sign-up{position: relative; float: left;}
 
 #captcha{position: relative; float: right;}
 
@@ -318,6 +325,7 @@ body .form-buttons-auto{margin-left: 0;}
 .active:after {
   content: "\2212";
 }
+#captcha{position: relative; float: none;}
 }
 
 @media(max-width: 830px){
