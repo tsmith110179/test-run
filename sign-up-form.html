@@ -7,26 +7,39 @@
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22475" type="text/javascript"></script>
 <script type="text/javascript">
    JotForm.setConditions([{"action":[{"field":"9","visibility":"Show","id":"action_0_1579704830003"}],"id":"1579704830003","index":"0","link":"Any","priority":"0","terms":[{"field":"8","operator":"equals","value":"Other (Please specify...)"}],"type":"field"}]);
-	JotForm.init(function(){
+  JotForm.init(function(){
 if (window.JotForm && JotForm.accessible) $('input_18').setAttribute('tabindex',0);
       setTimeout(function() {
           $('input_6').hint('ex: email@yahoo.com');
        }, 20);
-	JotForm.newDefaultTheme = true;
-	JotForm.extendsNewTheme = false;
-	JotForm.newPaymentUIForNewCreatedForms = false;
-	JotForm.newPaymentUI = true;
+  JotForm.newDefaultTheme = true;
+  JotForm.extendsNewTheme = false;
+  JotForm.newPaymentUIForNewCreatedForms = false;
+  JotForm.newPaymentUI = true;
     /*INIT-END*/
-	});
+  });
 
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"signMe","qid":"2","text":"Sign me up!","type":"control_button"},{"name":"fullName3","qid":"3","text":"Full Name","type":"control_fullname"},null,null,{"name":"email6","qid":"6","subLabel":"example@example.com","text":"E-mail","type":"control_email"},null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"companyName","qid":"18","subLabel":"","text":"Company Name","type":"control_textbox"},{"description":"","name":"preferredContact","qid":"19","text":"Preferred Contact Method","type":"control_checkbox"}]);
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"signMe","qid":"2","text":"Sign me up!","type":"control_button"},{"name":"fullName3","qid":"3","text":"Full Name","type":"control_fullname"},null,null,{"name":"email6","qid":"6","subLabel":"example@example.com","text":"E-mail","type":"control_email"},null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"companyName","qid":"18","subLabel":"","text":"Company Name","type":"control_textbox"},null,null,{"description":"","name":"preferredContact","qid":"21","text":"Preferred Contact Method","type":"control_radio"}]);
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"signMe","qid":"2","text":"Sign me up!","type":"control_button"},{"name":"fullName3","qid":"3","text":"Full Name","type":"control_fullname"},null,null,{"name":"email6","qid":"6","subLabel":"example@example.com","text":"E-mail","type":"control_email"},null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"companyName","qid":"18","subLabel":"","text":"Company Name","type":"control_textbox"},{"description":"","name":"preferredContact","qid":"19","text":"Preferred Contact Method","type":"control_checkbox"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"signMe","qid":"2","text":"Sign me up!","type":"control_button"},{"name":"fullName3","qid":"3","text":"Full Name","type":"control_fullname"},null,null,{"name":"email6","qid":"6","subLabel":"example@example.com","text":"E-mail","type":"control_email"},null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"companyName","qid":"18","subLabel":"","text":"Company Name","type":"control_textbox"},null,null,{"description":"","name":"preferredContact","qid":"21","text":"Preferred Contact Method","type":"control_radio"}]);}, 20); 
 </script>
 <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22475" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5eb3b4ae85bd2e1e2966db96"/>
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.22475" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22475" />
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+.form-label.form-label-auto {
+        
+      display: block;
+      float: none;
+      text-align: left;
+      width: 100%;
+    
+      }
+    /* Injected CSS Code */
+</style>
+
 <form class="jotform-form" action="https://submit.jotform.com/submit/203606195492155/" method="post" name="form_203606195492155" id="203606195492155" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="203606195492155" />
   <input type="hidden" id="JWTContainer" value="" />
@@ -78,26 +91,21 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"signMe","qid":"2","text":"Sign
           </span>
         </div>
       </li>
-      <li class="form-line jf-required" data-type="control_checkbox" id="id_19">
-        <label class="form-label form-label-top form-label-auto" id="label_19" for="input_19">
-          Preferred Contact Method
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_19" class="form-input-wide jf-required" data-layout="full">
-          <div class="form-single-column" role="group" aria-labelledby="label_19" data-component="checkbox">
-            <span class="form-checkbox-item" style="clear:left">
+      <li class="form-line" data-type="control_radio" id="id_21">
+        <label class="form-label form-label-top form-label-auto" id="label_21" for="input_21"> Preferred Contact Method </label>
+        <div id="cid_21" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_21" data-component="radio">
+            <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox validate[required]" id="input_19_0" name="q19_preferredContact[]" value="Email" required="" />
-              <label id="label_input_19_0" for="input_19_0"> Email </label>
+              <input type="radio" class="form-radio" id="input_21_0" name="q21_preferredContact" value="Email" />
+              <label id="label_input_21_0" for="input_21_0"> Email </label>
             </span>
-            <span class="form-checkbox-item" style="clear:left">
+            <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox validate[required]" id="input_19_1" name="q19_preferredContact[]" value="Text" required="" />
-              <label id="label_input_19_1" for="input_19_1"> Text </label>
+              <input type="radio" class="form-radio" id="input_21_1" name="q21_preferredContact" value="Text" />
+              <label id="label_input_21_1" for="input_21_1"> Text </label>
             </span>
           </div>
         </div>
