@@ -216,7 +216,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
     .hamburglernav #nav a{font-size: 117%; width: 410px;}
     .hamburglernav #nav a:hover{font-size: 117%; width: 410px;}
-    .hamburglernav{left: 8px;}
+    .hamburglernav{left: 0;}
     .noscroll .hamburger{left: 1278px; top: -618px;}
 .nav-text-links{width: 804px;}
   .nav-text-links ul li a{font-size: 13.5pt;}
@@ -253,6 +253,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
 .nav-text-links .sub-menu-2 li a:hover{font-size: 7pt;}
  body #___gcse_0{margin-top: -124px;}
 .noscroll .hamburger{left: 1076px;}
+.hamburgler #nav > ul > li > a{padding: 10px 0px 10px 2px;}
 }
 
 
