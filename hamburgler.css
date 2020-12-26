@@ -267,7 +267,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
     .hamburglernav #nav ul li ul a:hover{font-size: 9px;}
     .nav-text-links{display: none;}
      .hamburgernav-text-links{display: none;}
-     body #___gcse_0{width: 321%;}
+
     .flip img{display: none;}
     .flip-2 img{display: none;}
     .flip-3 img{display: none;}
@@ -280,10 +280,11 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
 }
 
-@media(max-width: 768px){
+@media(max-width: 830px){
     #nav{left: 10px;}
     .hamburger{width: 768px; height: 45px;}
     .hamburglernav #nav a{font-size: 60%; width: 115px; top: -89px;}
     .hamburglernav #nav a:hover{font-size: 60%; width: 115px; top: -89px;}
+     body #___gcse_0{width: 255%;}
 }
 
