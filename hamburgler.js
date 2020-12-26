@@ -89,5 +89,6 @@ $(document).ready(function(){
     $(".sub-menu-2").css({'display':'none'});
   });
 });
+$("#captcha").load("captcha-form.html");
 });
 // Code that uses other library's $ can follow here.
