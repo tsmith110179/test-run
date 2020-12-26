@@ -205,6 +205,14 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
 .hamburgernav-text-links{position: relative; top: 39px; margin-left: 38%;}
 
+body .rc-anchor-light.rc-anchor-normal{border: 0;}
+
+body .rc-anchor-light{background: #fff;}
+
+body .form-submit-button-light_rounded{background: #ffc200; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%;}
+
+body .form-buttons-auto{margin-left: 0;}
+
 @media(max-width: 1960px){
   body #___gcse_0{position: relative; float: right; margin-top: -125px; width: 122%;}
 
