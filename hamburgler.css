@@ -289,21 +289,40 @@ body .gsst_a .gscb_a{color: #24a56f;}
     .hamburglernav #nav a{font-size: 60%; width: 115px; top: -89px;}
     .hamburglernav #nav a:hover{font-size: 60%; width: 115px; top: -89px;}
      body #___gcse_0{width: 255%;}
-     .noscroll .hamburger{left: 484px;}
+     .noscroll .hamburger{left: 725px;}
 }
 
 @media(max-width: 736px){
          body #___gcse_0{width: 178%;}
+        .noscroll .hamburger{left: 650px;}
+}
+
+@media(max-width: 667px){
+        .noscroll .hamburger{left: 581px;}
+}
+
+
+@media(max-width: 640px){
+        .noscroll .hamburger{left: 554px;}
 }
 
 @media(max-width: 414px){
     .logo{left: 75px; top: -43px;}
     .logo img{width: 145px; height: 55px;}
-     .noscroll .hamburger{left: 278px;}
+     .noscroll .hamburger{left: 327px;}
+}
+
+@media(max-width: 375px){
+        .noscroll .hamburger{left: 290px;}
+}
+
+@media(max-width: 360px){
+        .noscroll .hamburger{left: 276px;}
 }
 
 @media(max-width: 320px){
 
     .logo{top: -35px;}
     .logo img{width: 106px; height: 40px;}
+     .noscroll .hamburger{left: 230px;}
 }
