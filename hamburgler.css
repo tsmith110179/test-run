@@ -135,7 +135,7 @@
 
 #nav{position: relative; top: 25px;}
 
-#nav img{width: 300; height: 113px;}
+#nav img{width: 300px; height: 113px;}
 
 .logo{position: relative; float: left; left: 134px; top: -50px; width: 200px; height: 76px; z-index: 1;}
 
@@ -252,7 +252,7 @@ body .gsst_a .gscb_a{color: #24a56f;}
 
 .nav-text-links .sub-menu-2 li a:hover{font-size: 7pt;}
  body #___gcse_0{margin-top: -124px;}
-.noscroll .hamburger{left: 1076px;}
+.noscroll .hamburger{left: 990px;}
 .hamburglernav #nav > ul > li > a{padding: 10px 0px 10px 2px;}
 }
 
