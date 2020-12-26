@@ -214,6 +214,8 @@ body .form-submit-button-light_rounded{background: #ffc200; border: 0; text-shad
 
 body .form-buttons-auto{margin-left: 0;}
 
+#captcha{position: relative; float: right;}
+
 @media(max-width: 1960px){
   body #___gcse_0{position: relative; float: right; margin-top: -125px; width: 122%;}
 
