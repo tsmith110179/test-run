@@ -247,6 +247,15 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 
 #sign-up{position: relative; float: left; opacity: 1; max-width: 27%; margin-left: 11%;}
 
+.sign-up{position: relative; background-color: #0b183a; padding: 2px;}
+
+.sign-up h1{color: #fff; font-size: 17pt;}
+
+.sign-up p{color: #fff; font-size: 10pt;}
+
+.sign-up a{color: #fdc113; font-size: 10pt; text-decoration: none;}
+
+.sign-up a:hover{color: #fdc113; font-size: 10pt; text-decoration: underline;}
 #captcha{position: relative; float: right; opacity: 1; max-width: 31%; margin-right: 18%;}
 
 .mobile-accordion-links{display: none;}
