@@ -135,7 +135,7 @@
 
 #nav{position: relative; top: 25px;}
 
-.logo{position: relative; float: left; left: 134px; top: -50px; width: 200px; height: 76px;}
+.logo{position: relative; float: left; left: 134px; top: -50px; width: 200px; height: 76px; z-index: 1;}
 
 .logo img{border: none; width: 200px; height: 76px;}
 
