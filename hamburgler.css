@@ -230,12 +230,21 @@ body .gsst_a .gscb_a{color: #24a56f;}
   .nav-text-links{width: 651px;}
   .nav-text-links ul li a{font-size: 9pt;}
   .nav-text-links ul li a:hover{font-size: 9pt;}
-.nav-text-links .sub-menu-1 li{left: 251px;}
-.nav-text-links .sub-menu-2 li{left: 392px;}
- body #___gcse_0{margin-top: -124px;}
-}
-}
+.nav-text-links .sub-menu li{left: 96px;}
+.nav-text-links .sub-menu-1 li{left: 206px;}
+.nav-text-links .sub-menu-2 li{left: 322px;}
+.nav-text-links .sub-menu li a{font-size: 7pt;}
 
+.nav-text-links .sub-menu li a:hover{font-size: 7pt;}
+
+.nav-text-links .sub-menu-1 li a{font-size: 7pt;}
+
+.nav-text-links .sub-menu-1 li a:hover{font-size: 7pt;}
+
+.nav-text-links .sub-menu-2 li a{font-size: 7pt;}
+
+.nav-text-links .sub-menu-2 li a:hover{font-size: 7pt;}
+ body #___gcse_0{margin-top: -124px;}
 }
 
 
