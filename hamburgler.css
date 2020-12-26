@@ -306,6 +306,10 @@ body .gsst_a .gscb_a{color: #24a56f;}
         .noscroll .hamburger{left: 554px;}
 }
 
+@media(max-width: 568px){
+        .noscroll .hamburger{left: 480px;}
+}
+
 @media(max-width: 414px){
     .logo{left: 75px; top: -43px;}
     .logo img{width: 145px; height: 55px;}
