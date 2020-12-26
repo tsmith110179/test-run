@@ -295,3 +295,9 @@ body .gsst_a .gscb_a{color: #24a56f;}
 @media(max-width: 736px){
          body #___gcse_0{width: 178%;}
 }
+
+@media(max-width: 414px){
+    .logo{left: 75px;}
+    .logo img{width: 145px; height: 55px; top: -43px;}
+
+}
