@@ -235,13 +235,19 @@ body .jf-form-buttons, .qq-upload-button:hover{background: #ffc200; border: 0; t
 
 body .form-buttons-auto{margin-left: 0;}
 
-body .supernova .form-all, .form-all{background-color: transparent;}
+body .supernova .form-all, .form-all{background-color: transparent !important;}
 
 body .formFooter{display: none;}
 
-#sign-up{position: relative; float: left; opacity: 1;}
+body .form-label-top, .form-label-left, .form-label-right, .form-html, .form-checkbox-item label, .form-radio-item label{color: #000;}
 
-#captcha{position: relative; float: right; opacity: 1;}
+body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
+
+.form-sub-label{color: #000;}
+
+#sign-up{position: relative; float: left; opacity: 1; max-width: 27%; margin-left: 11%;}
+
+#captcha{position: relative; float: right; opacity: 1; max-width: 31%; margin-right: 18%;}
 
 .mobile-accordion-links{display: none;}
 
