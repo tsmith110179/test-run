@@ -151,13 +151,13 @@
 
 #nav img{width: 300px; height: 113px;}
 
-.logo{position: relative; float: left; left: 134px; top: -50px; width: 200px; height: 76px; z-index: 1;}
+.logo{position: relative; float: left; left: 134px; top: -32px; width: 200px; height: 76px; z-index: 1;}
 
 .logo img{border: none; width: 200px; height: 76px;}
 
 .noscroll .logo{display: none;}
 
-.nav-text-links{position: relative; top: -50px; left: 190px; width: 957px; max-width: 100%; z-index: 2;}
+.nav-text-links{position: relative; top: -32px; left: 190px; width: 957px; max-width: 100%; z-index: 2;}
 
 .nav-text-links ul li{position: relative; text-decoration: none; list-style-type: none; display: inline-block; font-size: 18.5pt; color: rgba(0, 0, 0, 1); margin-right: 38px;}
 
@@ -211,7 +211,7 @@ body .gsc-search-button-v2:hover{background-color: #24a56f; border-color: #24a56
 
 body .gsc-search-button-v2:active{background-color: #24a56f; border-color: #24a56f;}
 
-body #___gcse_0{position: relative; float: right; margin-top: -124px; width: 122%;}
+body #___gcse_0{position: relative; float: right; margin-top: -108px; width: 122%;}
 
 body .gsc-control-cse{background-color: transparent;}
 
@@ -247,21 +247,32 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 
 #sign-up{position: relative; float: left; opacity: 1; max-width: 27%; margin-left: 11%;}
 
-.sign-up{position: relative; background-color: #0b183a; padding: 2px;}
+.sign-up{position: relative; background-color: #0b183a; padding: 2px; top: 25px;}
 
-.sign-up h1{color: #fff; font-size: 17pt;}
+.sign-up h1{color: #fff; font-size: 22pt; margin-left: 5%;}
 
-.sign-up p{color: #fff; font-size: 10pt;}
+.sign-up p{color: #fff; font-size: 7pt; margin-left: 5%;}
 
-.sign-up a{color: #fdc113; font-size: 10pt; text-decoration: none;}
+.sign-up a{color: #fdc113; font-size: 7pt; text-decoration: none;}
 
-.sign-up a:hover{color: #fdc113; font-size: 10pt; text-decoration: underline;}
+.sign-up a:hover{color: #fdc113; font-size: 7pt; text-decoration: underline;}
+
+.sign-up .form-line .form-label.form-label-top.form-label-auto{color: #fff;}
+
+.sign-up .form-sub-label{color: #fff;}
+
+.sign-up .form-label-top, .form-label-left, .form-label-right, .form-html, .form-checkbox-item label, .form-radio-item label{color: #fff;}
 #captcha{position: relative; float: right; opacity: 1; max-width: 31%; margin-right: 18%;}
 
 .mobile-accordion-links{display: none;}
 
+@media screen and (min-width: 768px){
+.jotform-form{padding: 0px}
+
+}
+
 @media(max-width: 1960px){
-  body #___gcse_0{position: relative; float: right; margin-top: -125px; width: 122%;}
+  body #___gcse_0{position: relative; float: right; margin-top: -108px; width: 122%;}
 
 }
 
