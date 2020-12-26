@@ -292,3 +292,6 @@ body .gsst_a .gscb_a{color: #24a56f;}
      .noscroll .hamburger{left: 484px;}
 }
 
+@media(max-width: 736px){
+         body #___gcse_0{width: 178%;}
+}
