@@ -4,10 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="hamburgler.js"></script>
-<!--<script src="jquery.flip.min.js"></script>
-<script src="jquery-parallax-1.1.3/scripts/jquery.parallax-1.1.3.js"></script>
-<script src="jquery-parallax-1.1.3/scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script src="jquery-parallax-1.1.3/scripts/jquery.scrollTo-1.4.2-min.js"></script>-->
 </head>
 
 <body>
@@ -28,6 +24,52 @@
     <li><a href="https://www.competitivechoice.net/Articles.asp?ID=336" target="_blank">Our Blog</a></li>
     <li><a href="https://www.competitivechoice.net/myaccount.asp" target="_blank">My Account</a></li>
     </ul>     
+  </div>
+  <div class="mobile-accordion-links">
+ <button class="collapsible">Who We Serve</button>
+<div class="mobile-accordion-links-content">
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=356" target="_blank">Who We Serve</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=358" target="_blank">Federal</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=357" target="_blank">SLED</a></p>
+     			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=359" target="_blank">Healthcare</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=360" target="_blank">Commercial</a></p>
+</div>
+<button class="collapsible">What We Do</button>
+<div class="mobile-accordion-links-content">
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=348" target="_blank">What We Do</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=353" target="_blank">Jan/San</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=349" target="_blank">Chemical Solutions</a></p>
+     			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=354" target="_blank">MRO Supppes</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=350" target="_blank">Supply Chain</a></p>
+ 	            <p><a href="https://www.competitivechoice.net/Articles.asp?ID=351" target="_blank">MEP Contractor Supppers</a></p>
+ 	           	<p><a href="https://www.competitivechoice.net/Articles.asp?ID=352" target="_blank">Office Supppes</a></p>
+</div>
+<button class="collapsible">Who We Are</button>
+<div class="mobile-accordion-links-content">
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=361" target="_blank">Who We Are</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=362" target="_blank">Our Culture</a></p>
+    			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=363" target="_blank">Our Responsibipty</a></p>
+     			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=364" target="_blank">About Us</a></p>
+     			<p><a href="https://www.competitivechoice.net/Articles.asp?ID=365" target="_blank">Catalogs</a></p>
+</div>
+<button class="collapsible">How To Contact Us</button>
+<div class="mobile-accordion-links-content">
+                <p><a href="https://www.competitivechoice.net/Articles.asp?ID=" target="_blank">Contact Us</a></p>
+                <p><a href="https://www.competitivechoice.net/Articles.asp?ID=355" target="_blank">Facility Maintenance Services</a></p>
+                <p><a href="https://www.competitivechoice.net/Articles.asp?ID=336" target="_blank">Our Blog</a></p>
+</div>
+<button class="collapsible">Access Your Account</button>
+<div class="mobile-accordion-links-content">
+                <p><a href="https://www.competitivechoice.net/myaccount.asp" target="_blank">My Account</a></p>
+</div>
+<button class="collapsible">Shop</button>
+<div class="mobile-accordion-links-content">
+    <p><a href="https://shopcompetitivechoice.net/" target="_blank">Shop Abipty One</a></p>
+    <p><a href="https://shopcompetitivechoice.net/" target="_blank">Shop CCI Brand</a></p>
+    <p><a href="https://shopcompetitivechoice.net/" target="_blank">Shop All Products</a></p>
+    <p><a href="https://www.gsaadvantage.gov/advantage/s/search.do?q=0:2GS-07F-0381Y&db=0&searchType=1" target="_blank">Shop GSA</a></p>
+    <p><a href="http://www.txsmartbuy.com/ex_search/false/contract_number/TXMAS~17~7305" target="_blank">Shop TXMAS</a></p>
+</div>
   </div>
   </div>
   
@@ -72,5 +114,23 @@
 
 <div id="captcha"></div>
 </div>
+
+<script>
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 </body>
