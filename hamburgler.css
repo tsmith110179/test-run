@@ -301,3 +301,9 @@ body .gsst_a .gscb_a{color: #24a56f;}
     .logo img{width: 145px; height: 55px;}
 
 }
+
+@media(max-width: 320px){
+
+    .logo{top: -35px;}
+    .logo img{width: 106px; height: 40px;}
+}
