@@ -368,7 +368,7 @@ body .jotform-form{padding: 0px}
       .noscroll .hamburger{left: 1192px;}
        .sign-up h1{background-position: 220px -2px;}
        #sign-up{margin-left: 0;}
-       .location{margin-left: 0;}
+       .location{margin-left: 16%; width: 855px;}
 }
 
 @media(max-width: 1200px){
@@ -393,6 +393,7 @@ body .jotform-form{padding: 0px}
 .noscroll .hamburger{left: 990px;}
 .hamburglernav #nav > ul > li > a{padding: 10px 0px 10px 2px;}
 .sign-up h1{background-image: none;}
+.location{margin-left: 19%; width: 696px;}
 }
 
 
@@ -451,7 +452,7 @@ body .jotform-form{padding: 0px}
 .captcha-form h1{position: relative; margin-left: 4%;}
 .captcha-form p{position: relative; margin-left: 4%;}
 .contact-forms::before{background-image: none;}
-.location{background-color: rgba(255, 255, 255, 1); margin-top: 0;}
+.location{background-color: rgba(255, 255, 255, 1); margin-top: 0; margin-left: 0;}
 .address{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0; padding: 0; text-align: center;}
 .phone{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0; padding: 0; text-align: center;}
 .social-media{margin-top: 87%; height: 204px;}
