@@ -293,6 +293,8 @@ body .form-all{box-shadow: none;}
 
 body #id_7{margin-top: 0;}
 
+body #captcha .form-sub-label{color: #000;}
+
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
 
