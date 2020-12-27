@@ -343,6 +343,11 @@ body .jotform-form{padding: 0px}
 .nav-text-links .sub-menu li{left: 115px;}
 .nav-text-links .sub-menu-1 li{left: 259px;}
 .nav-text-links .sub-menu-2 li{left: 411px;}
+.location{position: relative; width: 1026px;}
+}
+
+@media(max-width: 1400px){
+
 .location{position: relative; width: 971px;}
 }
 
