@@ -454,14 +454,15 @@ body .jotform-form{padding: 0px}
 .location{background-color: rgba(255, 255, 255, 1); margin-top: 0;}
 .address{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0; padding: 0; text-align: center;}
 .phone{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0; padding: 0; text-align: center;}
-.social-media{margin-top: 87%; height: 152px;}
+.social-media{margin-top: 87%; height: 204px;}
 .icons-row-1{margin-left: 12%;}
+.icons-row-6{margin-right: 0;}
 .address h1{padding-bottom: 0;}
 
 }
 
 @media(max-width: 830px){
-    #nav{left: 10px;
+    #nav{left: 10px;}
     .hamburger{width: 768px; height: 45px;}
     .hamburglernav #nav a{font-size: 60%; width: 115px; top: -89px;}
     .hamburglernav #nav a:hover{font-size: 60%; width: 115px; top: -89px;}
