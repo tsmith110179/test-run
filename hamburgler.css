@@ -249,7 +249,7 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 
 .sign-up{position: relative; background-color: #0b183a; padding: 2px; top: 25px;}
 
-.sign-up h1{color: #fff; font-size: 22pt; margin-left: 5%; background-image:url("white-pencil.png"); background-position: 249px -29px; background-repeat: no-repeat; width: 389px; height: 30px;}
+.sign-up h1{color: #fff; font-size: 22pt; margin-left: 5%; background-image:url("white-pencil.png"); background-position: 259px -2px; background-repeat: no-repeat; width: 389px; height: 101px;}
 
 .sign-up p{color: #fff; font-size: 7pt; margin-left: 5%;}
 
@@ -282,6 +282,8 @@ body ul.page-section{padding: 0;}
 body #captcha .form-buttons-wrapper, .form-submit-clear-wrapper{padding: 0;}
 
 body .form-all{box-shadow: none;}
+
+.pencil{position: relative; margin-top: -66px;}
 
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
