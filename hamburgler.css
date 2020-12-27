@@ -432,9 +432,15 @@ footer{padding-bottom: 35%;}
 .hamburglernav #nav > ul > li > a{padding: 10px 0px 10px 2px;}
 .sign-up h1{background-image: none;}
 .location{margin-left: 19%; width: 696px;}
-footer{padding-bottom: 40%;}
-.footer-address{width: 600px;}
+footer{padding-bottom: 38%;}
+.footer-address{width: 711px;}
 .footer-navigation{margin-left: -57px;}
+.footer-navigation .column .first-child p{font-size: 14pt;}
+.footer-navigation .column .first-child a{font-size: 14pt;}
+.footer-navigation .column .first-child a:hover{font-size: 14pt;}
+.footer-navigation .column p{font-size: 8.5pt;}
+.footer-navigation .column a{font-size: 8.5pt;}
+.footer-navigation .column a:hover{font-size: 8.5pt;}
 }
 
 
