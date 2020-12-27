@@ -266,6 +266,8 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 
 .mobile-accordion-links{display: none;}
 
+body .sign-up ul.page-section{padding: 0;}
+
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
 
