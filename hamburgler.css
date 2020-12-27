@@ -268,6 +268,14 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 
 body .sign-up ul.page-section{padding: 0;}
 
+body .page-section>li:first-child:not(.form-line-column):not([data-type=control_head]):not([data-type=control_text]):not([data-type=control_button]):not([data-type=control_collapse]), .page-section>li:nth-child(2):not(.form-line-column):not([data-type=control_head]):not([data-type=control_text]):not([data-type=control_button]):not([data-type=control_collapse]){margin-top: 0;}
+
+body .formFooter-heightMask{height: 0;}
+
+body .form-buttons-wrapper, .form-pagebreak, .form-submit-clear-wrapper{border-color: transparent;}
+
+body .form-line{padding-bottom: 0;}
+
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
 
