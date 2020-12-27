@@ -249,7 +249,7 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 
 .sign-up{position: relative; background-color: #0b183a; padding: 2px; top: 25px;}
 
-.sign-up h1{color: #fff; font-size: 22pt; margin-left: 5%; background-image:url("white-pencil.png"); background-position: 0 0; background-repeat: no-repeat;}
+.sign-up h1{color: #fff; font-size: 22pt; margin-left: 5%; background-image:url("white-pencil.png"); background-position: 0 0; background-repeat: no-repeat; width: 120px; height: 93px;}
 
 .sign-up p{color: #fff; font-size: 7pt; margin-left: 5%;}
 
