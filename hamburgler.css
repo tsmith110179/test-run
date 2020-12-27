@@ -406,7 +406,7 @@ body .jotform-form{padding: 0px}
 .active:after {
   content: "\2212";
 }
-#captcha{position: relative; float: none; max-width: 100%; margin-top: 6%; background-color: #fff;}
+#captcha{position: relative; float: none; max-width: 100%; margin-top: 6%; background-color: #fff; margin-right: 0;}
 #sign-up{position: relative; float: none; max-width: 100%;}
 .contact-forms{top: 50px;}
 .sign-up h1{background-position: 0; margin-left: 4%; width: 200px; position: relative; top: -61px;}
