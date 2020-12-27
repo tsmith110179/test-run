@@ -487,7 +487,7 @@ body .jotform-form{padding: 0px}
         .mobile-accordion-links{top: 86px; left: -96px;}
 .icons-row-1{margin-left: 23%;}
 .icons-row-5{margin-left: 38.5%;}
-.social-media{margin-top: 139%;}
+.social-media{margin-top: 154%;}
 }
 
 @media(max-width: 667px){
@@ -520,7 +520,7 @@ body .jotform-form{padding: 0px}
 .location{margin-top: 2%;}
 .icons-row-1{margin-left: 15%;}
 .icons-row-5{margin-left: 34%;}
-.social-media{margin-top: 248%;}
+.social-media{margin-top: 227%;}
 }
 
 @media(max-width: 375px){
@@ -528,6 +528,7 @@ body .jotform-form{padding: 0px}
         .mobile-accordion-links{top: 86px; left: -96px;}
 .icons-row-1{margin-left: 14%;}
 .icons-row-5{margin-left: 34%;}
+.social-media{margin-top: 248%;}
 }
 
 @media(max-width: 360px){
