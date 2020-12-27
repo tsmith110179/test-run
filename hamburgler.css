@@ -205,6 +205,12 @@
 
 .noscroll .contact-forms{display: none;}
 
+.noscroll .location{display: none;}
+
+.noscroll .social-media{display: none;}
+
+.noscroll iframe{display: none;}
+
 body .gsc-control-wrapper-cse{width: 20%; position: relative; float: right;}
 
 .gsc-input{background-image: none !important;}
