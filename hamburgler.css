@@ -295,6 +295,10 @@ body #id_7{margin-top: 0;}
 
 body #captcha .form-sub-label{color: #000;}
 
+body #captcha #id_3{margin-top: 0;}
+
+body #id_4{margin-top: 0;}
+
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
 
