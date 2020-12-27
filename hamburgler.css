@@ -406,9 +406,15 @@ body .jotform-form{padding: 0px}
 .active:after {
   content: "\2212";
 }
-#captcha{position: relative; float: none;}
+#captcha{position: relative; float: none; max-width: 100%; margin-top: 6%; background-color: #fff;}
+#sign-up{position: relative; float: none; max-width: 100%;}
+.contact-forms{top: 50px;}
+.sign-up h1{background-position: 0; margin-left: 4%; width: 200px; position: relative; top: -61px;}
+.captcha-form h1{position: relative; margin-left: 4%;}
+.captcha-form p{position: relative; margin-left: 4%;}
 }
 
+.contact-forms::before{background-image: none;}
 @media(max-width: 830px){
     #nav{left: 10px;}
     .hamburger{width: 768px; height: 45px;}
