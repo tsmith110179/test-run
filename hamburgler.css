@@ -231,7 +231,7 @@ body .form-submit-button-light_rounded.form-pagebreak-back, .form-submit-button-
 
 body .jf-form-buttons, .qq-upload-button{background: #ffc200; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%; box-shadow: none;}
 
-body .jf-form-buttons, .qq-upload-button:hover{background: #ffc200; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%; box-shadow: none;}
+body .jf-form-buttons, .qq-upload-button:hover{background: #ffc200 !important; border: 0; text-shadow: none; color: #fff; border-radius: 0; width: 88%; box-shadow: none;}
 
 body .form-buttons-auto{margin-left: 0;}
 
