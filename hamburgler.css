@@ -320,8 +320,8 @@ body #id_2{margin-top: -37px;}
 .phone p{position: relative; font-size: 10pt; color: #000; line-height: 0.52;}
 
 .social-media h1{position: relative; text-align: center; color: #000; font-size: 21pt; margin-top: 5%; padding-bottom: 3%;}
-.icons{position: relative; width: 1100px; max-width: 100%; margin-left: 11%; height: auto; margin-right: 0; float: left; margin-top: 5%;}
-.icons-row-1{position: relative; float: left; width: 32px; height: auto; margin-right: 11%;}
+.icons{position: relative; width: 1532px; max-width: 100%; margin: 0 auto; height: auto; background-color: #fff; margin-top: -45px; margin-left: 0;}
+.icons-row-1{position: relative; float: left; width: 32px; height: auto; margin-right: 11%; margin-left: 15%;}
 .icons-row-2{position: relative; float: left; width: 32px; height: auto; margin-right: 11%;}
 .icons-row-3{position: relative; float: left; width: 32px; height: auto; margin-right: 11%;}
 .icons-row-4{position: relative; float: left; width: 32px; height: auto; margin-right: 11%;}
@@ -354,13 +354,13 @@ body .jotform-form{padding: 0px}
 .nav-text-links .sub-menu-1 li{left: 259px;}
 .nav-text-links .sub-menu-2 li{left: 411px;}
 .location{position: relative; width: 1026px;}
-.icons{position: relative; width: 1026px;}
+
 }
 
 @media(max-width: 1400px){
 
 .location{position: relative; width: 971px;}
-.icons{position: relative; width: 971px;}
+
 }
 
 @media(max-width: 1280px){
@@ -369,7 +369,6 @@ body .jotform-form{padding: 0px}
        .sign-up h1{background-position: 220px -2px;}
        #sign-up{margin-left: 0;}
        .location{margin-left: 0;}
-       .icons{margin-left: 0;}
 }
 
 @media(max-width: 1200px){
