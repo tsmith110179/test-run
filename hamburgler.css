@@ -215,7 +215,7 @@ body .gsc-search-button-v2:active{background-color: #24a56f; border-color: #24a5
 
 body #___gcse_0{position: relative; float: right; margin-top: -108px; width: 122%;}
 
-body .gsc-control-cse{background-color: transparent;}
+body .gsc-control-cse{background-color: transparent; border: 0;}
 
 body .gsst_a .gscb_a{color: #24a56f;}
 
@@ -290,6 +290,8 @@ body .form-all{box-shadow: none;}
 .captcha-form p{font-size: 7pt; color: #211c20;}
 
 .pencil{position: relative; margin-top: -66px;}
+
+body #id_7{margin-top: 0;}
 
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
