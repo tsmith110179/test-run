@@ -340,11 +340,16 @@ body .glaswe{display: none !important;}
 
 footer{background: rgba(13,23,58, 1); margin: 0 auto; position: relative; width: 1532px; max-width: 100%; height: auto; padding-bottom: 35%;}
 
-.footer-address{position: relative; background: #ffc200; padding: 3px; float: left; margin-top: 2%; width: 1025px; max-width: 100%;  height: auto;}
+.footer-address{position: relative; background: #ffc200; padding: 3px; float: left; margin-top: 2%; width: 900px; max-width: 100%;  height: auto;}
 .footer-address h1{position: relative; color: #000; text-transform: none; font-size: 17pt; margin-left: 19%;}
 .footer-address p{position: relative; color: #000; text-transform: none; font-size: 10pt; margin-left: 30%;}
 .footer-address a{position: relative; color: #000; text-transform: none; font-size: 10pt;}
 .footer-address a:hover{position: relative; color: #000; text-transform: none; font-size: 10pt;}
+
+.footer-mailing-list{position: relative; float: right; max-width: 100%; height: auto;}
+.footer-mailing-list h1{position: relative; font-size: 17pt; border-bottom: #ffc200; border-bottom-width:20px;}
+.footer-mailing-list p{position: relative; font-size: 10pt; font-style: italic; color: #000; background-color: #ffc200; padding: 2px; border-radius: 4px 2px;}
+.footer-mailing-list ul li{position: relative; text-decoration: none; list-style-type: none; display: inline-block;}
 
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
