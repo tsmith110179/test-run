@@ -235,7 +235,7 @@ body .jf-form-buttons, .qq-upload-button:hover{background: #ffc200; border: 0; t
 
 body .form-buttons-auto{margin-left: 0;}
 
-body .supernova .form-all, .form-all{background-color: transparent !important;}
+body .supernova .form-all, .form-all{background-color: transparent !important; box-shadow: none;}
 
 body .formFooter{display: none;}
 
@@ -262,6 +262,7 @@ body .form-line, [data-wrapper-react=true]{margin-top: 50px;}
 .sign-up .form-sub-label{color: #fff;}
 
 .sign-up .form-label-top, .form-label-left, .form-label-right, .form-html, .form-checkbox-item label, .form-radio-item label{color: #fff;}
+
 #captcha{position: relative; float: right; opacity: 1; max-width: 31%; margin-right: 18%;}
 
 .mobile-accordion-links{display: none;}
@@ -274,7 +275,9 @@ body .formFooter-heightMask{height: 0;}
 
 body .form-buttons-wrapper, .form-pagebreak, .form-submit-clear-wrapper{border-color: transparent;}
 
-body .form-line{padding-bottom: 0;}
+body .form-line{padding-bottom: 0; padding-top: 0;}
+
+body ul.page-section{padding: 0;}
 
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
