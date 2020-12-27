@@ -451,19 +451,17 @@ body .jotform-form{padding: 0px}
 .captcha-form h1{position: relative; margin-left: 4%;}
 .captcha-form p{position: relative; margin-left: 4%;}
 .contact-forms::before{background-image: none;}
-.location{background-color: rgba(255, 255, 255, 1); margin-top: -48px;}
-.address{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0;}
-.phone{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0;}
-.icons-row-1{max-width: 50%; margin-left: 0; margin-right: 0; float: left;}
-.icons-row-2{max-width: 50%; margin-left: 0; margin-right: 0; float: left;}
-.icons-row-3{max-width: 50%; margin-left: 0; margin-right: 0; float: left;}
-.icons-row-4{max-width: 50%; margin-left: 0; margin-right: 0; float: left;}
-.icons-row-5{max-width: 50%; margin-left: 0; margin-right: 0; float: left;}
-.icons-row-6{max-width: 50%; margin-left: 0; margin-right: 0; float: left;}
+.location{background-color: rgba(255, 255, 255, 1); margin-top: 0;}
+.address{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0; padding: 0; text-align: center;}
+.phone{max-width: 100%; float: none; position: relative; margin-top: 6%; margin-right: 0; padding: 0; text-align: center;}
+.social-media{margin-top: 87%; height: 152px;}
+.icons-row-1{margin-left: 12%;}
+.address h1{padding-bottom: 0;}
+
 }
 
 @media(max-width: 830px){
-    #nav{left: 10px;}
+    #nav{left: 10px;
     .hamburger{width: 768px; height: 45px;}
     .hamburglernav #nav a{font-size: 60%; width: 115px; top: -89px;}
     .hamburglernav #nav a:hover{font-size: 60%; width: 115px; top: -89px;}
@@ -471,6 +469,7 @@ body .jotform-form{padding: 0px}
      .noscroll .hamburger{left: 725px;}
         .mobile-accordion-links{top: 86px; left: -96px;}
 #captcha{margin-top: 22%;}
+.social-media{height: 375px; margin-top: 130%;}
 }
 
 @media(max-width: 768px){
