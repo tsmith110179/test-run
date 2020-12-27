@@ -316,16 +316,17 @@ body .jotform-form{padding: 0px}
 .nav-text-links{width: 804px;}
   .nav-text-links ul li a{font-size: 13.5pt;}
   .nav-text-links ul li a:hover{font-size: 13.5pt;}
-  body #___gcse_0{margin-top: -121px; width: 147%;}
+  body #___gcse_0{margin-top: -104px; width: 147%;}
 .nav-text-links .sub-menu li{left: 115px;}
 .nav-text-links .sub-menu-1 li{left: 259px;}
 .nav-text-links .sub-menu-2 li{left: 411px;}
 }
 
 @media(max-width: 1280px){
-      body #___gcse_0{width: 100%; margin-top: -126px;}
+      body #___gcse_0{width: 100%; margin-top: -104px;}
       .noscroll .hamburger{left: 1192px;}
-
+       .sign-up h1{background-position: 220px -2px;}
+       #sign-up{margin-left: 0;}
 }
 
 @media(max-width: 1200px){
@@ -346,9 +347,10 @@ body .jotform-form{padding: 0px}
 .nav-text-links .sub-menu-2 li a{font-size: 7pt;}
 
 .nav-text-links .sub-menu-2 li a:hover{font-size: 7pt;}
- body #___gcse_0{margin-top: -124px;}
+ body #___gcse_0{margin-top: -104px;}
 .noscroll .hamburger{left: 990px;}
 .hamburglernav #nav > ul > li > a{padding: 10px 0px 10px 2px;}
+.sign-up h1{background-image: none;}
 }
 
 
