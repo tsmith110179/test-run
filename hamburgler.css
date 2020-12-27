@@ -406,6 +406,7 @@ footer{padding-bottom: 35%;}
        .sign-up h1{background-position: 220px -2px;}
        #sign-up{margin-left: 0;}
        .location{margin-left: 16%; width: 855px;}
+       .footer-mailing-list{margin-right: 4%;}
 }
 
 @media(max-width: 1200px){
@@ -431,6 +432,9 @@ footer{padding-bottom: 35%;}
 .hamburglernav #nav > ul > li > a{padding: 10px 0px 10px 2px;}
 .sign-up h1{background-image: none;}
 .location{margin-left: 19%; width: 696px;}
+footer{padding-bottom: 40%;}
+.footer-address{width: 600px;}
+.footer-navigation{margin-left: -57px;}
 }
 
 
