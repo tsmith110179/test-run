@@ -211,6 +211,8 @@
 
 .noscroll iframe{display: none;}
 
+.noscroll footer{display: none;}
+
 body .gsc-control-wrapper-cse{width: 20%; position: relative; float: right;}
 
 .gsc-input{background-image: none !important;}
@@ -335,6 +337,14 @@ body #id_2{margin-top: -37px;}
 .icons-row-6{position: relative; float: left; width: 32px; height: auto; margin-right: 11%;}
 
 body .glaswe{display: none !important;}
+
+footer{background: rgba(13,23,58, 1); margin: 0 auto; position: relative; width: 1532px; max-width: 100%; height: auto;}
+
+.footer-address{position: relative; background: #ffc200; padding: 10px; float: left;}
+.footer-address h1{position: relative; color: #000; text-transform: none; font-size: 17pt;}
+.footer-address p{position: relative; color: #000; text-transform: none; font-size: 10pt;}
+.footer-address a{position: relative; color: #000; text-transform: none; font-size: 10pt;}
+.footer-address a:hover{position: relative; color: #000; text-transform: none; font-size: 10pt;}
 
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
