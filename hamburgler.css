@@ -283,6 +283,10 @@ body #captcha .form-buttons-wrapper, .form-submit-clear-wrapper{padding: 0;}
 
 body .form-all{box-shadow: none;}
 
+.captcha-form h1{font-size: 22pt; text-transform: uppercase; color: #211c20;}
+
+.captcha-form p{font-size: 7pt; color: #211c20;}
+
 .pencil{position: relative; margin-top: -66px;}
 
 @media screen and (min-width: 768px){
