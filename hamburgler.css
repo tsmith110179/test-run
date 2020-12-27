@@ -346,9 +346,10 @@ footer{background: rgba(13,23,58, 1); margin: 0 auto; position: relative; width:
 .footer-address a{position: relative; color: #000; text-transform: none; font-size: 10pt;}
 .footer-address a:hover{position: relative; color: #000; text-transform: none; font-size: 10pt;}
 
-.footer-mailing-list{position: relative; float: right; max-width: 100%; height: auto;}
-.footer-mailing-list h1{position: relative; font-size: 17pt; border-bottom: #ffc200; border-bottom-width:20px;}
-.footer-mailing-list p{position: relative; font-size: 10pt; font-style: italic; color: #000; background-color: #ffc200; padding: 2px; border-radius: 4px 2px;}
+.footer-mailing-list{position: relative; float: right; max-width: 100%; height: auto; margin-right: 9%; margin-top: 5%;}
+.footer-mailing-list h1{position: relative; font-size: 17pt; color: #fff; padding-bottom: 11px; left: -15px;}
+.footer-mailing-list hr{position: relative; color: #ffc200 1px solid; width: 100px;}
+.footer-mailing-list p{position: relative; font-size: 10pt; font-style: italic; color: #000; background-color: #ffc200; padding: 2px; border-radius: 17px 17px; text-align: center; width: 102px; margin-left: 18%;}
 .footer-mailing-list ul li{position: relative; text-decoration: none; list-style-type: none; display: inline-block;}
 
 @media screen and (min-width: 768px){
