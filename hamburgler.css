@@ -358,8 +358,8 @@ footer{background: rgba(13,23,58, 1); margin: 0 auto; position: relative; width:
 .footer-navigation ul li a{position: relative; color: #fff; font-size: 10pt; text-decoration: none; list-style-type: none; display: inline-block;}
 .footer-navigation ul li a:hover{position: relative; color: #ffc200; font-size: 10pt; text-decoration: none; list-style-type: none; display: inline-block;}
 .footer-navigation ul li:first-child{position: relative; color: #fff; font-size: 17pt; text-decoration: none; list-style-type: none; display: inline-block; padding-bottom: 3%;}
-.footer-navigation ul li:first-child a:hover{position: relative; color: #fff; font-size: 17pt; text-decoration: none; list-style-type: none; display: inline-block; padding-bottom: 3%;}
-.footer-navigation ul li:first-child a:hover{position: relative; color: #fff; font-size: 17pt; text-decoration: none; list-style-type: none; display: inline-block; padding-bottom: 3%;}
+.footer-navigation ul li a:first-child:hover{position: relative; color: #fff; font-size: 17pt; text-decoration: none; list-style-type: none; display: inline-block; padding-bottom: 3%;}
+.footer-navigation ul li a:first-child:hover{position: relative; color: #fff; font-size: 17pt; text-decoration: none; list-style-type: none; display: inline-block; padding-bottom: 3%;}
 
 @media screen and (min-width: 768px){
 body .jotform-form{padding: 0px}
