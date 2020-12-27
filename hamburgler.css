@@ -338,7 +338,7 @@ body #id_2{margin-top: -37px;}
 
 body .glaswe{display: none !important;}
 
-footer{background: rgba(13,23,58, 1); margin: 0 auto; position: relative; width: 1532px; max-width: 100%; height: auto; padding-bottom: 28%;}
+footer{background: rgba(13,23,58, 1); margin: 0 auto; position: relative; width: 1532px; max-width: 100%; height: auto; padding-bottom: 32%;}
 
 .footer-address{position: relative; background: #ffc200; padding: 3px; float: left; margin-top: 2%; width: 900px; max-width: 100%;  height: auto;}
 .footer-address h1{position: relative; color: #000; text-transform: none; font-size: 17pt; margin-left: 19%;}
@@ -389,6 +389,8 @@ body .jotform-form{padding: 0px}
 .nav-text-links .sub-menu-1 li{left: 259px;}
 .nav-text-links .sub-menu-2 li{left: 411px;}
 .location{position: relative; width: 1026px;}
+footer{padding-bottom: 35%;}
+.footer-navigation{margin-top: -96px;}
 
 }
 
