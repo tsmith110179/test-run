@@ -471,32 +471,44 @@ body .jotform-form{padding: 0px}
      .noscroll .hamburger{left: 725px;}
         .mobile-accordion-links{top: 86px; left: -96px;}
 #captcha{margin-top: 22%;}
-.social-media{height: 375px; margin-top: 130%;}
+.social-media{margin-top: 130%;}
+.icons-row-5{margin-left: 23%;}
+.icons-row-5{margin-left: 37%;}
 }
 
 @media(max-width: 768px){
          .noscroll .hamburger{left: 650px;}
+.icons-row-5{margin-left: 23%;}
+.icons-row-5{margin-left: 37%;}
 }
 @media(max-width: 736px){
          body #___gcse_0{width: 178%;}
         .noscroll .hamburger{left: 650px;}
         .mobile-accordion-links{top: 86px; left: -96px;}
+.icons-row-5{margin-left: 23%;}
+.icons-row-5{margin-left: 37%;}
 }
 
 @media(max-width: 667px){
         .noscroll .hamburger{left: 581px;}
           .mobile-accordion-links{top: 86px;}
+.icons-row-5{margin-left: 23%;}
+.icons-row-5{margin-left: 37%;}
 }
 
 
 @media(max-width: 640px){
         .noscroll .hamburger{left: 554px;}
     .mobile-accordion-links{top: 86px; left: -96px;}
+.icons-row-5{margin-left: 23%;}
+.icons-row-5{margin-left: 37%;}
 }
 
 @media(max-width: 568px){
         .noscroll .hamburger{left: 480px;}
         .mobile-accordion-links{top: 86px;}
+.icons-row-5{margin-left: 23%;}
+.icons-row-5{margin-left: 37%;}
 }
 
 @media(max-width: 414px){
@@ -504,17 +516,23 @@ body .jotform-form{padding: 0px}
     .logo img{width: 145px; height: 55px;}
      .noscroll .hamburger{left: 327px;}
         .mobile-accordion-links{top: 86px; left: -96px;}
-.location{margin-top: -22px;}
+.location{margin-top: 2%;}
+.icons-row-1{margin-left: 11%;}
+.icons-row-5{margin-left: 31%;}
 }
 
 @media(max-width: 375px){
         .noscroll .hamburger{left: 290px;}
         .mobile-accordion-links{top: 86px; left: -96px;}
+.icons-row-1{margin-left: 11%;}
+.icons-row-5{margin-left: 31%;}
 }
 
 @media(max-width: 360px){
         .noscroll .hamburger{left: 276px;}
     .mobile-accordion-links{top: 86px; left: -96px;}
+.icons-row-1{margin-left: 11%;}
+.icons-row-5{margin-left: 31%;}
 }
 
 @media(max-width: 320px){
@@ -523,4 +541,7 @@ body .jotform-form{padding: 0px}
     .logo img{width: 106px; height: 40px;}
      .noscroll .hamburger{left: 230px;}
     .mobile-accordion-links{top: 0; left: 0;}
+    .social-media{margin-top: 282%;}
+.icons-row-1{margin-left: 11%;}
+.icons-row-5{margin-left: 31%;}
 }
