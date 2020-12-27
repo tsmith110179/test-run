@@ -412,9 +412,9 @@ body .jotform-form{padding: 0px}
 .sign-up h1{background-position: 0; margin-left: 4%; width: 200px; position: relative; top: -61px;}
 .captcha-form h1{position: relative; margin-left: 4%;}
 .captcha-form p{position: relative; margin-left: 4%;}
+.contact-forms::before{background-image: none;}
 }
 
-.contact-forms::before{background-image: none;}
 @media(max-width: 830px){
     #nav{left: 10px;}
     .hamburger{width: 768px; height: 45px;}
