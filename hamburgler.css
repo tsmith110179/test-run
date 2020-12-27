@@ -161,7 +161,7 @@
 
 .nav-text-links ul li{position: relative; text-decoration: none; list-style-type: none; display: inline-block; font-size: 18.5pt; color: rgba(0, 0, 0, 1); margin-right: 38px;}
 
-.nav-text-links ul li a{text-decoration: none; font-size: 18.5pt; color: rgba(0, 0, 0, 1);}
+.nav-text-links ul li a{text-decoration: none; font-size: 18.5pt; color: rgba(0, 0, 0, 1); position:relative; z-index: 5;}
 
 .nav-text-links ul li a:hover{text-decoration: none; font-size: 18.5pt; color: rgba(0, 0, 0, 1); border-top: 6px solid #24b56f;}
 
