@@ -153,7 +153,7 @@
 
 #nav img{width: 300px; height: 113px;}
 
-.logo{position: relative; float: left; left: 134px; top: -32px; width: 200px; height: 76px; z-index: 1;}
+.logo{position: relative; float: left; left: 134px; top: -32px; width: 200px; height: 76px; z-index: 3;}
 
 .logo img{border: none; width: 200px; height: 76px;}
 
